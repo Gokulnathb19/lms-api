@@ -1,0 +1,20 @@
+{
+  "name": "redcarpetup-backend",
+  "version": "1.0.0",
+  "description": "Backend code for Redcarpetup Selection",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Gokulnath B <gokulnath.b129@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.3",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.4"
+  }
+}
